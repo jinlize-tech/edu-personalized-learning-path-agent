@@ -1,0 +1,17 @@
+{
+  "product_id": "JLZ-EDU-AG-024",
+  "repository_name": "edu-personalized-learning-path-agent",
+  "version": "1.0.1",
+  "tested_source_commit": "a5d1621178c53dbfa525d3bb39c2d3ff99ef82cd",
+  "tested_source_tree_sha": "a3ca8d63745ee3e43ed60cd7855f248fa1ef531d",
+  "package_path": "dist/edu-personalized-learning-path-agent-v1.0.1.zip",
+  "package_sha256": "1A560E3049D1734B7298058A9BBC5ECCA451490691F87AEEEE5A6DD394694BF2",
+  "runtime_test_status": "LOCAL_TEST_PASS",
+  "runtime_test_count": 62,
+  "schema_validation_status": "SCHEMA_INSTANCE_VALIDATION_PASS",
+  "schema_validation_case_count": 16,
+  "model_runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED",
+  "readme_repair": "PASS",
+  "plugin_author_name": "Education AI Tools Maintainers"
+}

@@ -1,0 +1,20 @@
+{
+  "contract_version": "1.2.0",
+  "data_status": "confirmed",
+  "contains_sensitive_data": false,
+  "requested_output_language": "zh-CN",
+  "learner_profile": "学生概况已核对（脱敏示例）",
+  "learning_goals": [
+    {}
+  ],
+  "evidence_summary": [
+    {}
+  ],
+  "course_schedule": [
+    {}
+  ],
+  "available_home_time": "家庭可用时间已核对（脱敏示例）",
+  "review_cycle": "复盘周期已核对（脱敏示例）",
+  "support_conditions": "家庭与教师支持条件已核对（脱敏示例）",
+  "resume_mode": "new"
+}

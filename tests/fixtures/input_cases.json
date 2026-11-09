@@ -1,0 +1,196 @@
+{
+  "cases": [
+    {
+      "case_id": "normal_complete",
+      "expected_status": "READY_FOR_PROCESSING",
+      "instance": {
+        "contract_version": "1.2.0",
+        "data_status": "confirmed",
+        "contains_sensitive_data": false,
+        "requested_output_language": "zh-CN",
+        "learner_profile": "学生概况已核对（脱敏示例）",
+        "learning_goals": [
+          {}
+        ],
+        "evidence_summary": [
+          {}
+        ],
+        "course_schedule": [
+          {}
+        ],
+        "available_home_time": "家庭可用时间已核对（脱敏示例）",
+        "review_cycle": "复盘周期已核对（脱敏示例）",
+        "support_conditions": "家庭与教师支持条件已核对（脱敏示例）",
+        "resume_mode": "new"
+      }
+    },
+    {
+      "case_id": "missing_required",
+      "expected_status": "NEEDS_INPUT",
+      "instance": {
+        "contract_version": "1.2.0",
+        "data_status": "confirmed",
+        "contains_sensitive_data": false,
+        "requested_output_language": "zh-CN",
+        "learning_goals": [
+          {}
+        ],
+        "evidence_summary": [
+          {}
+        ],
+        "course_schedule": [
+          {}
+        ],
+        "available_home_time": "家庭可用时间已核对（脱敏示例）",
+        "review_cycle": "复盘周期已核对（脱敏示例）",
+        "support_conditions": "家庭与教师支持条件已核对（脱敏示例）",
+        "resume_mode": "new"
+      }
+    },
+    {
+      "case_id": "invalid_type",
+      "expected_status": "INVALID_INPUT",
+      "instance": {
+        "contract_version": "1.2.0",
+        "data_status": "confirmed",
+        "contains_sensitive_data": false,
+        "requested_output_language": "zh-CN",
+        "learner_profile": 123,
+        "learning_goals": [
+          {}
+        ],
+        "evidence_summary": [
+          {}
+        ],
+        "course_schedule": [
+          {}
+        ],
+        "available_home_time": "家庭可用时间已核对（脱敏示例）",
+        "review_cycle": "复盘周期已核对（脱敏示例）",
+        "support_conditions": "家庭与教师支持条件已核对（脱敏示例）",
+        "resume_mode": "new"
+      }
+    },
+    {
+      "case_id": "unconfirmed",
+      "expected_status": "NEEDS_CONFIRMATION",
+      "instance": {
+        "contract_version": "1.2.0",
+        "data_status": "unconfirmed",
+        "contains_sensitive_data": false,
+        "requested_output_language": "zh-CN",
+        "learner_profile": "学生概况已核对（脱敏示例）",
+        "learning_goals": [
+          {}
+        ],
+        "evidence_summary": [
+          {}
+        ],
+        "course_schedule": [
+          {}
+        ],
+        "available_home_time": "家庭可用时间已核对（脱敏示例）",
+        "review_cycle": "复盘周期已核对（脱敏示例）",
+        "support_conditions": "家庭与教师支持条件已核对（脱敏示例）",
+        "resume_mode": "new"
+      }
+    },
+    {
+      "case_id": "partial_confirmation",
+      "expected_status": "NEEDS_CONFIRMATION",
+      "instance": {
+        "contract_version": "1.2.0",
+        "data_status": "partially_confirmed",
+        "contains_sensitive_data": false,
+        "requested_output_language": "zh-CN",
+        "learner_profile": "学生概况已核对（脱敏示例）",
+        "learning_goals": [
+          {}
+        ],
+        "evidence_summary": [
+          {}
+        ],
+        "course_schedule": [
+          {}
+        ],
+        "available_home_time": "家庭可用时间已核对（脱敏示例）",
+        "review_cycle": "复盘周期已核对（脱敏示例）",
+        "support_conditions": "家庭与教师支持条件已核对（脱敏示例）",
+        "resume_mode": "new"
+      }
+    },
+    {
+      "case_id": "sensitive_marked",
+      "expected_status": "READY_WITH_PRIVACY_WARNING",
+      "instance": {
+        "contract_version": "1.2.0",
+        "data_status": "confirmed",
+        "contains_sensitive_data": true,
+        "requested_output_language": "zh-CN",
+        "learner_profile": "学生概况已核对（脱敏示例）",
+        "learning_goals": [
+          {}
+        ],
+        "evidence_summary": [
+          {}
+        ],
+        "course_schedule": [
+          {}
+        ],
+        "available_home_time": "家庭可用时间已核对（脱敏示例）",
+        "review_cycle": "复盘周期已核对（脱敏示例）",
+        "support_conditions": "家庭与教师支持条件已核对（脱敏示例）",
+        "resume_mode": "new"
+      }
+    },
+    {
+      "case_id": "undeclared_field",
+      "expected_status": "INVALID_INPUT",
+      "instance": {
+        "contract_version": "1.2.0",
+        "data_status": "confirmed",
+        "contains_sensitive_data": false,
+        "requested_output_language": "zh-CN",
+        "learner_profile": "学生概况已核对（脱敏示例）",
+        "learning_goals": [
+          {}
+        ],
+        "evidence_summary": [
+          {}
+        ],
+        "course_schedule": [
+          {}
+        ],
+        "available_home_time": "家庭可用时间已核对（脱敏示例）",
+        "review_cycle": "复盘周期已核对（脱敏示例）",
+        "support_conditions": "家庭与教师支持条件已核对（脱敏示例）",
+        "resume_mode": "new",
+        "未声明字段": "不应被接受"
+      }
+    },
+    {
+      "case_id": "resume_without_state",
+      "expected_status": "NEEDS_INPUT",
+      "instance": {
+        "contract_version": "1.2.0",
+        "data_status": "confirmed",
+        "contains_sensitive_data": false,
+        "requested_output_language": "zh-CN",
+        "learner_profile": "学生概况已核对（脱敏示例）",
+        "learning_goals": [
+          {}
+        ],
+        "evidence_summary": [
+          {}
+        ],
+        "course_schedule": [
+          {}
+        ],
+        "available_home_time": "家庭可用时间已核对（脱敏示例）",
+        "review_cycle": "复盘周期已核对（脱敏示例）",
+        "support_conditions": "家庭与教师支持条件已核对（脱敏示例）",
+        "resume_mode": "resume"
+      }
+    }
+  ]
+}

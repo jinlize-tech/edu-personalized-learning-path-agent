@@ -1,0 +1,63 @@
+{
+  "name": "edu-personalized-learning-path-agent",
+  "version": "1.0.0",
+  "description": "A multi-step education agent for Personalized Learning Pathway Agent.",
+  "author": {
+    "name": "广州金励泽科技服务有限公司",
+    "email": "270911570+yangsongbaofu-dot@users.noreply.github.com"
+  },
+  "agents": [
+    "./agents/edu-personalized-learning-path-agent.md"
+  ],
+  "expertType": "agent",
+  "agentName": "edu-personalized-learning-path-agent",
+  "displayName": {
+    "en": "Personalized Learning Pathway Agent",
+    "zh": "个性化学习路径规划"
+  },
+  "profession": {
+    "en": "Personalized Learning Pathway Agent",
+    "zh": "个性化学习路径规划"
+  },
+  "displayDescription": {
+    "en": "Multi-step professional workflow for Personalized Learning Pathway Agent.",
+    "zh": "围绕一个学习周期建立诊断、目标、任务、里程碑、复盘和调整的多轮路径，不混淆教学建议与正式诊断。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "15-Education",
+  "defaultInitPrompt": {
+    "en": "Help me complete Personalized Learning Pathway Agent.",
+    "zh": "请帮我完成一次个性化学习路径规划"
+  },
+  "plugin": "edu-personalized-learning-path-agent",
+  "tags": [
+    {
+      "en": "Education",
+      "zh": "教培机构"
+    },
+    {
+      "en": "Professional Workflow",
+      "zh": "专业工作流"
+    },
+    {
+      "en": "Personalized Learning Pathway Agent",
+      "zh": "个性化学习路径规划"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Help me complete Personalized Learning Pathway Agent.",
+      "zh": "请帮我完成一次个性化学习路径规划"
+    },
+    {
+      "en": "Start with scope and evidence inventory.",
+      "zh": "请先确认范围并盘点资料"
+    },
+    {
+      "en": "Generate the final deliverables with risks and open questions.",
+      "zh": "请生成最终成果，并列出风险与待确认事项"
+    }
+  ],
+  "homepage": "https://github.com/jinlize-tech/edu-personalized-learning-path-agent",
+  "license": "Apache-2.0"
+}

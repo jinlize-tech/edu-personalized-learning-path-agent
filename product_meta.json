@@ -1,0 +1,32 @@
+{
+  "number": 24,
+  "product_id": "JLZ-EDU-AG-024",
+  "candidate_id": "CAND-023",
+  "chinese_name": "个性化学习路径规划",
+  "english_name": "Personalized Learning Pathway Agent",
+  "repository_name": "edu-personalized-learning-path-agent",
+  "repository_url": "https://github.com/jinlize-tech/edu-personalized-learning-path-agent",
+  "product_type": "Agent",
+  "category": "11 学员成功与家庭服务中心",
+  "batch": 3,
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "core_outputs": [
+    "个性化路径",
+    "阶段目标",
+    "里程碑"
+  ],
+  "optional_outputs": [
+    "任务清单",
+    "复盘表",
+    "调整条件",
+    "家长沟通摘要"
+  ],
+  "high_risk": false,
+  "deterministic": false,
+  "scenario_count": 14,
+  "package_path": "dist/edu-personalized-learning-path-agent-v1.0.0.zip",
+  "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED",
+  "status": "LOCAL_DEVELOPMENT_COMPLETE_PENDING_REMOTE_VERIFICATION"
+}

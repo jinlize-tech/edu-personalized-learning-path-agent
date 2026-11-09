@@ -2,10 +2,10 @@
   "product_id": "JLZ-EDU-AG-024",
   "repository_name": "edu-personalized-learning-path-agent",
   "product_type": "Agent",
-  "version": "1.0.0",
-  "package_path": "dist/edu-personalized-learning-path-agent-v1.0.0.zip",
-  "sha256": "1443500D3135D45716546A9C9ED55F5D3A4B66708F26F347540AFB6612410BA4",
-  "bytes": 47123,
+  "version": "1.0.1",
+  "package_path": "dist/edu-personalized-learning-path-agent-v1.0.1.zip",
+  "sha256": "1A560E3049D1734B7298058A9BBC5ECCA451490691F87AEEEE5A6DD394694BF2",
+  "bytes": 48258,
   "entries": [
     "edu-personalized-learning-path-agent/README.md",
     "edu-personalized-learning-path-agent/PRODUCT_SPEC.md",
@@ -38,5 +38,9 @@
   "license": "Apache-2.0",
   "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
   "workbuddy_validation": "NOT_EXECUTED",
-  "built_at": "2026-11-09T00:00:00+08:00"
+  "built_at": "2026-11-09T11:58:52.161473+00:00",
+  "previous_version": "1.0.0",
+  "previous_package_path": "dist/edu-personalized-learning-path-agent-v1.0.0.zip",
+  "previous_package_sha256": "1443500D3135D45716546A9C9ED55F5D3A4B66708F26F347540AFB6612410BA4",
+  "patch_reason": "README_USAGE_INSTALLATION_AND_PLATFORM_METADATA_FINALIZATION"
 }

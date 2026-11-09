@@ -9,7 +9,7 @@
   "product_type": "Agent",
   "category": "11 学员成功与家庭服务中心",
   "batch": 3,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "Apache-2.0",
   "core_outputs": [
     "个性化路径",
@@ -25,8 +25,13 @@
   "high_risk": false,
   "deterministic": false,
   "scenario_count": 14,
-  "package_path": "dist/edu-personalized-learning-path-agent-v1.0.0.zip",
+  "package_path": "dist/edu-personalized-learning-path-agent-v1.0.1.zip",
   "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
   "workbuddy_validation": "NOT_EXECUTED",
-  "status": "LOCAL_DEVELOPMENT_COMPLETE_PENDING_REMOTE_VERIFICATION"
+  "status": "DOCUMENTATION_AND_METADATA_PATCH_1.0.1_BUILT_PENDING_REMOTE_VERIFICATION",
+  "previous_version": "1.0.0",
+  "previous_package_path": "dist/edu-personalized-learning-path-agent-v1.0.0.zip",
+  "previous_package_sha256": "1443500D3135D45716546A9C9ED55F5D3A4B66708F26F347540AFB6612410BA4",
+  "package_state": "PATCH_PACKAGE_V1.0.1_BUILT",
+  "readme_repair": "README_USAGE_INSTALLATION_ALIGNED_WITH_PACKAGE_CONTENTS"
 }

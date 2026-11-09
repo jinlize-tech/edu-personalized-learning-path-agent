@@ -1,0 +1,16 @@
+{
+  "product_id": "JLZ-EDU-AG-024",
+  "repository_name": "edu-personalized-learning-path-agent",
+  "tested_source_commit": "50977ab17ef696a34f3296aea249acfd5dcdadbe",
+  "tested_source_tree_sha": "b93772191a5651d6f94fa8aac5386f6de0e1ab8c",
+  "product_version": "1.0.0",
+  "package_sha256": "1443500D3135D45716546A9C9ED55F5D3A4B66708F26F347540AFB6612410BA4",
+  "runtime_test_status": "LOCAL_TEST_PASS",
+  "runtime_test_count": 62,
+  "schema_validation_status": "SCHEMA_INSTANCE_VALIDATION_PASS",
+  "schema_validation_case_count": 16,
+  "scenario_count": 14,
+  "scenario_execution_status": "MAPPED_NOT_INDIVIDUALLY_EXECUTED",
+  "model_runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED"
+}
